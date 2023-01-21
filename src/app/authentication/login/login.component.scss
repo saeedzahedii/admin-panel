@@ -1,0 +1,104 @@
+.login-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main {
+    display: table;
+    margin: 100px auto;
+}
+.sign-in-container {
+    width: 40%;
+    height: inherit;
+    background: #ffffff;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.welcome-container {
+    width: 60%;
+    height: inherit;
+    background: #4c71f9;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+label {
+    font-family: "Yekan";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: right;
+    color: #535a75;
+}
+h2 {
+    font-family: "Yekan";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 54px;
+    text-align: right;
+    color: #000000;
+}
+input {
+    padding: 11px 18px;
+    width: 332px;
+    border: 1px solid #ccd6ed;
+    border-radius: 5px;
+    font-family: "Yekan";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: right;
+    color: #737a95;
+    background-color: white;
+}
+.controller {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 30px;
+}
+.submit-btn {
+    border: none;
+    width: 106px;
+    height: 44px;
+    background: #143fd6;
+    border-radius: 5px;
+    font-family: "Yekan";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+}
+a {
+    font-family: "Yekan";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #4c71f9;
+}
+.gray-logo {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+}
+.caption {
+    font-family: "Yekan";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: right;
+    color: #ffffff;
+}

@@ -1,0 +1,76 @@
+.home-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-frame {
+    background-image: url(../../assets/images/Frame-bg.png);
+    height: 224px;
+}
+.sidebar {
+    background: #2c2f4c;
+    width: 20%;
+    height: inherit;
+    .header {
+        display: flex;
+        justify-content: center;
+        padding: 20px 10px;
+        gap: 10px;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        .menu-item {
+            display: flex;
+            justify-content: flex-start;
+            align-items: stretch;
+            width: 231px;
+            padding: 10px;
+            background: #6370e5;
+            border-radius: 8px;
+            gap: 10px;
+            .item-title {
+                font-family: "Yekan";
+                font-style: normal;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 29px;
+                text-align: right;
+                color: #ffffff;
+            }
+        }
+    }
+}
+.circle-btn {
+    height: 53px;
+    width: 53px;
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+    img {
+        width: 25px;
+    }
+}
+
+.content {
+    background: #f5f7fa;
+    width: 80%;
+    height: inherit;
+    .header-frame {
+        padding: 25px 40px;
+        h2 {
+            color: white;
+        }
+        .breadcrumb {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: stretch;
+            gap: 15px;
+            margin-top: 15px;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+<div class="login-container">
+	<div class="sign-in-container">
+		<div class="main">
+			<img src="../../../assets/images/polkadot-new-dot-logo-blue.png">
+			<h2>خوش آمدید</h2>
+			<p>ورود به حساب کاربری</p>
+			<form [formGroup]="form" (submit)="onSubmit()">
+				<div>
+					<label for="username">نام کاربری</label>
+					<br>
+					<input name="username" type="text" placeholder="..." formControlName="UserName" />
+				</div>
+				<div>
+					<label for="">رمز عبور</label>
+					<br>
+					<input name="password" type="password" placeholder="رمز عبور" formControlName="Password"/>
+				</div>
+				<div class="controller">
+					<button class="submit-btn">ورود</button>
+					<a href="#">فراموشی رمز عبور</a>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="welcome-container">
+		<div class="main">
+			<img class="gray-logo" src="../../../assets//images/polkadot-new-dot-logo-gray.png">
+			<img style="text-align:center;" src="../../../assets//images/Frame.png">
+			<p class="caption">خوشا به حال آن که به بندگان خدا نیکی کند و برای آخرت خود زاد و توشه برگیرد. <br>امام علی علیه السلام</p>
+		</div>
+	</div>
+</div>

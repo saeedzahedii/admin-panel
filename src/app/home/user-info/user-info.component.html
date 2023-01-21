@@ -1,0 +1,65 @@
+<div class="container">
+    <div>
+        <h2>اطلاعات پروفایل</h2>
+        <div class="info-detail">
+            <div>
+                <img src="../../../assets/images/prof.png">
+            </div>
+            <div>
+                <p class="title">نام</p>
+                <p class="value">امیر رضا</p>
+            </div>
+            <div>
+                <p class="title">نام خانوادگی</p>
+                <p class="value">رضایی نژاد</p>
+            </div>
+            <div>
+                <p class="title">تاریخ تولد</p>
+                <p class="value">۱۳۷۴/۰۹/۱۳</p>
+            </div>
+            <div>
+                <p class="title">کد ملی</p>
+                <p class="value">۱۲۳۴۵۶۷۸۹۰</p>
+            </div>
+            <div>
+                <p class="title">جنسیت</p>
+                <p class="value">مرد</p>
+            </div>
+        </div>
+        <button>
+            <img src="../../../assets/images/pen.svg">
+            <span>ویرایش اطلاعات</span>
+        </button>
+    </div>
+
+    <div *ngIf="false">
+        <h2>تصویر پروفایل</h2>
+        <img style="margin-top:10px;" src="../../../assets/images/prof.png">
+        <div>
+            <form action="">
+                <div class="inputs">
+                    <div>
+                        <label for="fname">نام</label>
+                        <br>
+                        <input type="text" name="fname" placeholder="اینجا بنویسید... ">
+                    </div>
+                    <div>
+                        <label for="lname">نام خانوادگی</label>
+                        <br>
+                        <input type="text" name="lname" placeholder="اینجا بنویسید... ">
+                    </div>
+                    <div>
+                        <label for="info">توضیحات</label>
+                        <br>
+                        <input type="text" name="info" placeholder="اینجا بنویسید... ">
+                    </div>
+                </div>
+
+                <div class="controllers">
+                    <button class="active">ذخیره</button>
+                    <button>انصراف</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
